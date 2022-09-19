@@ -14,7 +14,7 @@ def main(request):
                 'Booking a slot',
                 'email -- > ' + email + '\n\n' + 'mobile number --> ' + number + '\n\n' +'name --> ' + name + '\n\n' + 'catagory--> '+catagory,
                 'khannaharshit064@gmail.com',
-                [ 'kumarshalu18831@gmail.com','khannaharshit1064@gmail.com'],
+                [ 'kumarshalu18831@gmail.com','khannaharshit064@gmail.com'],
                 fail_silently=False,
             )
             messages.success(request, 'Thank you !! we will contact you soon')
@@ -35,7 +35,7 @@ def contact(request):
                 'Contact Us',
                 'email -- > ' + email + '\n\n'+'mobile number --> ' + number + '\n\n'+ 'textarea --> ' + textarea,
                 'khannaharshit064@gmail.com',
-                ['kumarshalu18831@gmail.com', 'khannaharshit1064@gmail.com'],
+                ['kumarshalu18831@gmail.com', 'khannaharshit064@gmail.com'],
                 fail_silently=False,
             )
 
